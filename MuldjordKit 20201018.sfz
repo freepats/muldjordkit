@@ -1,0 +1,3416 @@
+//+ Name: MuldjordKit FreePats
+//+ Date: 2020-10-18
+//+ URL: http://freepats.zenvoid.org/Percussion/acoustic-drum-kit.html#MuldjordKit
+
+<global>
+ //+ Instrument: MuldjordKit
+ ampeg_release=100
+ amp_veltrack=0
+ loop_mode=no_loop
+
+
+// Kick drum left
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=0 hivel=8
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/2-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/4-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/6-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/8-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=9 hivel=17
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/4-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/6-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/8-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/10-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=18 hivel=26
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/6-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/8-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/10-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/12-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=27 hivel=35
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/8-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/10-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/12-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/13-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=36 hivel=44
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/10-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/12-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/13-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/15-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=45 hivel=53
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/12-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/13-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/15-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/16-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=54 hivel=62
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/13-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/15-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/16-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/17-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=63 hivel=71
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/15-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/16-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/17-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/19-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=72 hivel=80
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/16-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/17-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/19-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/20-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=81 hivel=89
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/17-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/19-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/20-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/21-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=90 hivel=98
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/KdrumL/17-KdrumL.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/KdrumL/19-KdrumL.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/KdrumL/20-KdrumL.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/KdrumL/21-KdrumL.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/KdrumL/23-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=99 hivel=108
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/KdrumL/19-KdrumL.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/KdrumL/20-KdrumL.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/KdrumL/21-KdrumL.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/KdrumL/23-KdrumL.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/KdrumL/24-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=109 hivel=122
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/KdrumL/20-KdrumL.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/KdrumL/21-KdrumL.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/KdrumL/23-KdrumL.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/KdrumL/24-KdrumL.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/KdrumL/25-KdrumL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=48
+ lovel=123 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumL/21-KdrumL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumL/23-KdrumL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumL/24-KdrumL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumL/25-KdrumL.flac
+
+
+// Kick drum right
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=0 hivel=8
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/3-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/5-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/7-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/9-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=9 hivel=17
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/5-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/7-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/9-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/11-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=18 hivel=26
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/7-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/9-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/11-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/13-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=27 hivel=35
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/9-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/11-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/13-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/15-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=36 hivel=44
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/11-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/13-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/15-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/16-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=45 hivel=53
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/13-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/15-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/16-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/17-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=54 hivel=62
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/15-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/16-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/17-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/19-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=63 hivel=71
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/16-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/17-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/19-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/20-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=72 hivel=80
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/17-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/19-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/20-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/21-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=81 hivel=89
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/19-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/20-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/21-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/23-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=90 hivel=98
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/KdrumR/19-KdrumR.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/KdrumR/20-KdrumR.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/KdrumR/21-KdrumR.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/KdrumR/23-KdrumR.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/KdrumR/24-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=99 hivel=108
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/KdrumR/20-KdrumR.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/KdrumR/21-KdrumR.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/KdrumR/23-KdrumR.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/KdrumR/24-KdrumR.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/KdrumR/25-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=109 hivel=122
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/KdrumR/21-KdrumR.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/KdrumR/23-KdrumR.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/KdrumR/24-KdrumR.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/KdrumR/25-KdrumR.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/KdrumR/26-KdrumR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=49
+ lovel=123 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/KdrumR/23-KdrumR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/KdrumR/24-KdrumR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/KdrumR/25-KdrumR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/KdrumR/26-KdrumR.flac
+
+
+// Snare 1
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=0 hivel=8
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/5-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/10-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/15-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/20-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=9 hivel=17
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/10-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/15-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/20-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/25-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=18 hivel=26
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/15-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/20-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/25-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/30-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=27 hivel=35
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/20-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/25-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/30-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/33-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=36 hivel=44
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/25-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/30-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/33-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/36-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=45 hivel=53
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/30-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/33-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/36-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/39-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=54 hivel=62
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/33-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/36-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/39-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/42-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=63 hivel=71
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/36-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/39-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/42-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/45-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=72 hivel=80
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/39-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/42-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/45-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/48-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=81 hivel=89
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/42-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/45-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/48-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/51-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=90 hivel=98
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Snare1/42-Snare.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Snare1/45-Snare.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Snare1/48-Snare.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Snare1/51-Snare.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Snare1/53-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=99 hivel=108
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Snare1/45-Snare.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Snare1/48-Snare.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Snare1/51-Snare.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Snare1/53-Snare.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Snare1/55-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=109 hivel=121
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Snare1/48-Snare.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Snare1/51-Snare.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Snare1/53-Snare.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Snare1/55-Snare.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Snare1/56-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=50
+ lovel=122 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare1/51-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare1/53-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare1/55-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare1/56-Snare.flac
+
+
+// Snare 2
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=0 hivel=8
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/5-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/10-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/15-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/20-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=9 hivel=17
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/10-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/15-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/20-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/25-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=18 hivel=26
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/15-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/20-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/25-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/30-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=27 hivel=35
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/20-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/25-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/30-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/33-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=36 hivel=44
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/25-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/30-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/33-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/36-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=45 hivel=53
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/30-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/33-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/36-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/39-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=54 hivel=62
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/33-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/36-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/39-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/42-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=63 hivel=71
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/36-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/39-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/42-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/45-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=72 hivel=80
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/39-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/42-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/45-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/48-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=81 hivel=89
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/42-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/45-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/48-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/51-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=90 hivel=98
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Snare2/42-Snare.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Snare2/45-Snare.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Snare2/48-Snare.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Snare2/51-Snare.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Snare2/53-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=99 hivel=108
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Snare2/45-Snare.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Snare2/48-Snare.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Snare2/51-Snare.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Snare2/53-Snare.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Snare2/55-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=109 hivel=121
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Snare2/48-Snare.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Snare2/51-Snare.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Snare2/53-Snare.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Snare2/55-Snare.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Snare2/56-Snare.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=51
+ lovel=122 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Snare2/51-Snare.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Snare2/53-Snare.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Snare2/55-Snare.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Snare2/56-Snare.flac
+
+
+// Hi-hat closed
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=0 hivel=8
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/1-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/3-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/5-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/8-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=9 hivel=17
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/3-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/5-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/8-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/10-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=18 hivel=26
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/5-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/8-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/10-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/12-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=27 hivel=35
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/8-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/10-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/12-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/14-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=36 hivel=44
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/10-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/12-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/14-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/16-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=45 hivel=53
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/12-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/14-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/16-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/18-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=54 hivel=62
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/14-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/16-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/18-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/20-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=63 hivel=71
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/16-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/18-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/20-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/22-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=72 hivel=80
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/18-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/20-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/22-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/24-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=81 hivel=89
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/20-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/22-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/24-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/26-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=90 hivel=98
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/HihatClosed/20-HihatClosed.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/HihatClosed/22-HihatClosed.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/HihatClosed/24-HihatClosed.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/HihatClosed/26-HihatClosed.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/HihatClosed/27-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=99 hivel=108
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/HihatClosed/22-HihatClosed.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/HihatClosed/24-HihatClosed.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/HihatClosed/26-HihatClosed.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/HihatClosed/27-HihatClosed.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/HihatClosed/28-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=109 hivel=121
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/HihatClosed/24-HihatClosed.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/HihatClosed/26-HihatClosed.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/HihatClosed/27-HihatClosed.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/HihatClosed/28-HihatClosed.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/HihatClosed/29-HihatClosed.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=52
+ lovel=122 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatClosed/26-HihatClosed.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatClosed/27-HihatClosed.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatClosed/28-HihatClosed.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatClosed/29-HihatClosed.flac
+
+
+// Hi-hat open
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=0 hivel=8
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/2-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/4-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/6-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/8-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=9 hivel=17
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/4-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/6-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/8-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/10-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=18 hivel=26
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/6-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/8-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/10-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/12-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=27 hivel=35
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/8-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/10-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/12-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/14-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=36 hivel=44
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/10-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/12-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/14-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/16-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=45 hivel=53
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/12-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/14-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/16-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/18-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=54 hivel=62
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/14-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/16-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/18-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/20-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=63 hivel=71
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/16-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/18-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/20-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/22-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=72 hivel=80
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/18-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/20-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/22-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/24-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=81 hivel=89
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/20-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/22-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/24-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/26-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=90 hivel=98
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/HihatOpen/20-HihatOpen.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/HihatOpen/22-HihatOpen.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/HihatOpen/24-HihatOpen.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/HihatOpen/26-HihatOpen.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/HihatOpen/28-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=99 hivel=108
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/HihatOpen/22-HihatOpen.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/HihatOpen/24-HihatOpen.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/HihatOpen/26-HihatOpen.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/HihatOpen/28-HihatOpen.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/HihatOpen/29-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=109 hivel=121
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/HihatOpen/24-HihatOpen.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/HihatOpen/26-HihatOpen.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/HihatOpen/28-HihatOpen.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/HihatOpen/29-HihatOpen.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/HihatOpen/30-HihatOpen.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=53
+ lovel=122 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/HihatOpen/26-HihatOpen.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/HihatOpen/28-HihatOpen.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/HihatOpen/29-HihatOpen.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/HihatOpen/30-HihatOpen.flac
+
+
+// Ride left
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+ lovel=0 hivel=15
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideL/1-RideL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideL/2-RideL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideL/3-RideL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+ lovel=16 hivel=31
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideL/2-RideL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideL/3-RideL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideL/4-RideL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+ lovel=32 hivel=47
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideL/3-RideL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideL/4-RideL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideL/5-RideL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+ lovel=48 hivel=63
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideL/4-RideL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideL/5-RideL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideL/6-RideL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+ lovel=64 hivel=79
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideL/5-RideL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideL/6-RideL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideL/7-RideL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+ lovel=80 hivel=95
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideL/6-RideL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideL/7-RideL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideL/8-RideL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+ lovel=96 hivel=122
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/RideL/7-RideL.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/RideL/8-RideL.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/RideL/9-RideL.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/RideL/10-RideL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=54
+ lovel=123 hivel=127
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideL/8-RideL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideL/9-RideL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideL/10-RideL.flac
+
+
+// Ride bell left
+
+<group>
+ //+ RandomRegion: Yes
+ key=55
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideLBell/1-RideLBell.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideLBell/2-RideLBell.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideLBell/3-RideLBell.flac
+
+
+// Ride right
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+ lovel=0 hivel=15
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideR/1-RideR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideR/2-RideR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideR/3-RideR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+ lovel=16 hivel=31
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideR/2-RideR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideR/3-RideR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideR/4-RideR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+ lovel=32 hivel=47
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideR/3-RideR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideR/4-RideR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideR/5-RideR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+ lovel=48 hivel=63
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideR/4-RideR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideR/5-RideR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideR/6-RideR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+ lovel=64 hivel=79
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideR/5-RideR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideR/6-RideR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideR/7-RideR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+ lovel=80 hivel=95
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideR/6-RideR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideR/7-RideR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideR/8-RideR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+ lovel=96 hivel=122
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/RideR/7-RideR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/RideR/8-RideR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/RideR/9-RideR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/RideR/10-RideR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=56
+ lovel=123 hivel=127
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideR/8-RideR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideR/9-RideR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideR/10-RideR.flac
+
+
+// Ride bell right
+
+<group>
+ //+ RandomRegion: Yes
+ key=57
+ lovel=0 hivel=20
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideRBell/1-RideRBell.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideRBell/2-RideRBell.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideRBell/3-RideRBell.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=57
+ lovel=21 hivel=41
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideRBell/2-RideRBell.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideRBell/3-RideRBell.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideRBell/4-RideRBell.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=57
+ lovel=42 hivel=64
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideRBell/3-RideRBell.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideRBell/4-RideRBell.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideRBell/5-RideRBell.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=57
+ lovel=65 hivel=93
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideRBell/4-RideRBell.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideRBell/5-RideRBell.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideRBell/6-RideRBell.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=57
+ lovel=94 hivel=127
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/RideRBell/6-RideRBell.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/RideRBell/7-RideRBell.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/RideRBell/8-RideRBell.flac
+
+
+// Crash left
+
+<group>
+ //+ RandomRegion: Yes
+ key=58
+ lovel=0 hivel=15
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashL/1-CrashL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashL/2-CrashL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashL/3-CrashL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=58
+ lovel=16 hivel=30
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashL/2-CrashL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashL/3-CrashL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashL/4-CrashL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=58
+ lovel=31 hivel=47
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashL/3-CrashL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashL/4-CrashL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashL/5-CrashL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=58
+ lovel=48 hivel=65
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashL/4-CrashL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashL/5-CrashL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashL/6-CrashL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=58
+ lovel=66 hivel=89
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashL/5-CrashL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashL/6-CrashL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashL/7-CrashL.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=58
+ lovel=90 hivel=127
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashL/7-CrashL.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashL/8-CrashL.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashL/9-CrashL.flac
+
+
+// Crash right
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=0 hivel=11
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/1-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/2-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/3-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=12 hivel=23
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/2-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/3-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/4-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=24 hivel=35
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/3-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/4-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/5-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=36 hivel=47
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/4-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/5-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/6-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=48 hivel=59
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/5-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/6-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/7-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=60 hivel=71
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/6-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/7-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/8-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=72 hivel=83
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/7-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/8-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/9-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=84 hivel=95
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/8-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/9-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/10-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=96 hivel=109
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/9-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/10-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/11-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=110 hivel=122
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/CrashR/9-CrashR.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/CrashR/10-CrashR.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/CrashR/11-CrashR.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/CrashR/12-CrashR.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=59
+ lovel=123 hivel=127
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/CrashR/10-CrashR.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/CrashR/11-CrashR.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/CrashR/12-CrashR.flac
+
+
+// China
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=0 hivel=11
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/1-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/2-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/3-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=12 hivel=23
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/2-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/3-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/4-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=24 hivel=35
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/3-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/4-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/5-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=36 hivel=47
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/4-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/5-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/6-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=48 hivel=59
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/5-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/6-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/7-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=60 hivel=71
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/6-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/7-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/8-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=72 hivel=83
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/7-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/8-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/9-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=84 hivel=95
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/8-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/9-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/10-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=96 hivel=109
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/9-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/10-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/11-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=110 hivel=123
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/China/9-China.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/China/10-China.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/China/11-China.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/China/12-China.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=60
+ lovel=124 hivel=127
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/China/10-China.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/China/11-China.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/China/12-China.flac
+
+
+// Tom 1
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=0 hivel=13
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Tom1/1-Tom1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Tom1/2-Tom1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Tom1/3-Tom1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=14 hivel=27
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Tom1/2-Tom1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Tom1/3-Tom1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Tom1/4-Tom1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=28 hivel=41
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Tom1/3-Tom1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Tom1/4-Tom1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Tom1/5-Tom1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=42 hivel=55
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Tom1/4-Tom1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Tom1/5-Tom1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Tom1/6-Tom1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=56 hivel=69
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Tom1/5-Tom1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Tom1/6-Tom1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Tom1/7-Tom1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=70 hivel=84
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Tom1/6-Tom1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Tom1/7-Tom1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Tom1/8-Tom1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=85 hivel=97
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Tom1/7-Tom1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Tom1/8-Tom1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Tom1/9-Tom1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=98 hivel=111
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Tom1/8-Tom1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Tom1/9-Tom1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Tom1/10-Tom1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=112 hivel=122
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom1/8-Tom1.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom1/9-Tom1.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom1/10-Tom1.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom1/11-Tom1.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=61
+ lovel=123 hivel=127
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/Tom1/9-Tom1.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/Tom1/10-Tom1.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/Tom1/11-Tom1.flac
+
+
+// Tom 2
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=0 hivel=11
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/1-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/2-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/3-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/4-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=12 hivel=23
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/2-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/3-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/4-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/5-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=24 hivel=35
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/3-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/4-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/5-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/6-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=36 hivel=48
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/4-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/5-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/6-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/7-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=49 hivel=61
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/5-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/6-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/7-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/8-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=62 hivel=74
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/6-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/7-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/8-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/9-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=75 hivel=87
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/7-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/8-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/9-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/10-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=88 hivel=100
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/8-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/9-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/10-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/11-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=101 hivel=113
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/9-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/10-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/11-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/12-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=114 hivel=121
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Tom2/9-Tom2.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Tom2/10-Tom2.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Tom2/11-Tom2.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Tom2/12-Tom2.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Tom2/13-Tom2.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=62
+ lovel=122 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom2/10-Tom2.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom2/11-Tom2.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom2/12-Tom2.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom2/13-Tom2.flac
+
+
+// Tom 3
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=0 hivel=9
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/1-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/2-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/3-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/4-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=10 hivel=19
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/2-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/3-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/4-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/5-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=20 hivel=29
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/3-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/4-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/5-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/6-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=30 hivel=39
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/4-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/5-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/6-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/7-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=40 hivel=49
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/5-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/6-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/7-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/8-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=50 hivel=59
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/6-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/7-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/8-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/9-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=60 hivel=70
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/7-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/8-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/9-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/10-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=71 hivel=81
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/8-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/9-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/10-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/11-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=82 hivel=92
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/9-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/10-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/11-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/12-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=93 hivel=103
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Tom3/9-Tom3.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Tom3/10-Tom3.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Tom3/11-Tom3.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Tom3/12-Tom3.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Tom3/13-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=104 hivel=114
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Tom3/10-Tom3.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Tom3/11-Tom3.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Tom3/12-Tom3.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Tom3/13-Tom3.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Tom3/14-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=115 hivel=124
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Tom3/11-Tom3.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Tom3/12-Tom3.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Tom3/13-Tom3.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Tom3/14-Tom3.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Tom3/15-Tom3.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=63
+ lovel=125 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom3/12-Tom3.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom3/13-Tom3.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom3/14-Tom3.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom3/15-Tom3.flac
+
+
+// Tom 4
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=0 hivel=8
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/1-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/2-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/4-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/6-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=9 hivel=17
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/2-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/4-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/6-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/8-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=18 hivel=26
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/4-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/6-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/8-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/10-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=27 hivel=35
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/6-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/8-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/10-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/11-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=36 hivel=44
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/8-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/10-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/11-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/12-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=45 hivel=53
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/10-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/11-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/12-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/13-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=54 hivel=62
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/11-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/12-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/13-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/14-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=63 hivel=71
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/12-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/13-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/14-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/15-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=72 hivel=80
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/13-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/14-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/15-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/16-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=81 hivel=89
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/14-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/15-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/16-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/17-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=90 hivel=98
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Tom4/14-Tom4.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Tom4/15-Tom4.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Tom4/16-Tom4.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Tom4/17-Tom4.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Tom4/18-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=99 hivel=108
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Tom4/15-Tom4.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Tom4/16-Tom4.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Tom4/17-Tom4.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Tom4/18-Tom4.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Tom4/19-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=109 hivel=122
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/Tom4/16-Tom4.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/Tom4/17-Tom4.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/Tom4/18-Tom4.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/Tom4/19-Tom4.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/Tom4/20-Tom4.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=64
+ lovel=123 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/Tom4/17-Tom4.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/Tom4/18-Tom4.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/Tom4/19-Tom4.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/Tom4/20-Tom4.flac
+
+
+// Snare rest 1
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=0 hivel=11
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/1-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/2-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/3-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/4-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=12 hivel=23
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/2-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/3-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/4-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/5-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=24 hivel=35
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/3-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/4-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/5-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/6-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=36 hivel=48
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/4-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/5-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/6-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/7-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=49 hivel=61
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/5-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/6-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/7-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/8-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=62 hivel=74
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/6-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/7-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/8-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/9-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=75 hivel=87
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/7-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/8-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/9-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/10-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=88 hivel=100
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/8-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/9-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/10-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/11-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=101 hivel=113
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/9-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/10-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/11-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/12-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=114 hivel=121
+<region>
+ lorand=0 hirand=0.2
+ sample=samples/SnareRest1/9-SnareRest.flac
+<region>
+ lorand=0.2 hirand=0.4
+ sample=samples/SnareRest1/10-SnareRest.flac
+<region>
+ lorand=0.4 hirand=0.6
+ sample=samples/SnareRest1/11-SnareRest.flac
+<region>
+ lorand=0.6 hirand=0.8
+ sample=samples/SnareRest1/12-SnareRest.flac
+<region>
+ lorand=0.8 hirand=1
+ sample=samples/SnareRest1/13-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=65
+ lovel=122 hivel=127
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest1/10-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest1/11-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest1/12-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest1/13-SnareRest.flac
+
+
+// Snare rest 2
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=0 hivel=11
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/1-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/2-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/3-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=12 hivel=23
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/2-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/3-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/4-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=24 hivel=35
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/3-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/4-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/5-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=36 hivel=47
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/4-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/5-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/6-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=48 hivel=59
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/5-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/6-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/7-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=60 hivel=71
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/6-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/7-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/8-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=72 hivel=83
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/7-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/8-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/9-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=84 hivel=95
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/8-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/9-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/10-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=96 hivel=109
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/9-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/10-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/12-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=110 hivel=123
+<region>
+ lorand=0 hirand=0.25
+ sample=samples/SnareRest2/9-SnareRest.flac
+<region>
+ lorand=0.25 hirand=0.5
+ sample=samples/SnareRest2/10-SnareRest.flac
+<region>
+ lorand=0.5 hirand=0.75
+ sample=samples/SnareRest2/12-SnareRest.flac
+<region>
+ lorand=0.75 hirand=1
+ sample=samples/SnareRest2/13-SnareRest.flac
+
+<group>
+ //+ RandomRegion: Yes
+ key=66
+ lovel=124 hivel=127
+<region>
+ lorand=0 hirand=0.3333
+ sample=samples/SnareRest2/10-SnareRest.flac
+<region>
+ lorand=0.3333 hirand=0.6667
+ sample=samples/SnareRest2/12-SnareRest.flac
+<region>
+ lorand=0.6667 hirand=1
+ sample=samples/SnareRest2/13-SnareRest.flac
