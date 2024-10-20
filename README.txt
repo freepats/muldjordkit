@@ -8,6 +8,8 @@ This version of MuldjordKit has been assembled by roberto@zenvoid.org for the Fr
 The original MuldjordKit for DrumGuizmo is made by Lars Muldjord. Published under the terms of the Creative Commons Attribution 4.0 International License:
 http://creativecommons.org/licenses/by/4.0/
 
+NOTE: Since 2021-01, attribution is required in the "album credits" field, or similiar album linear notes. The text is: Drum samples provided by DrumGizmo.org.
+
 The original README is included below, please notice that some information may not be applicable to this derivative version.
 
 ----------------------
